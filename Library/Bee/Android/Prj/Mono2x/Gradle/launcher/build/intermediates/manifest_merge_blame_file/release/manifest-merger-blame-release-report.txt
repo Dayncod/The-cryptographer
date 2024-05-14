@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.Vietnamesecryptographer"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="23"
+9-->D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="30" />
+10-->D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+23
+24    <uses-permission android:name="android.permission.INTERNET" />
+24-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:5-67
+24-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:22-64
+25    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+25-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:5-79
+25-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:22-76
+26
+27    <uses-feature
+27-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:5-22:36
+28        android:name="android.hardware.touchscreen"
+28-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-52
+29        android:required="false" />
+29-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:9-33
+30    <uses-feature
+30-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:5-25:36
+31        android:name="android.hardware.touchscreen.multitouch"
+31-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-63
+32        android:required="false" />
+32-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:25:9-33
+33    <uses-feature
+33-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:26:5-28:36
+34        android:name="android.hardware.touchscreen.multitouch.distinct"
+34-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-72
+35        android:required="false" />
+35-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:28:9-33
+36
+37    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+37-->[:NativeGallery:] C:\Users\dimon\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:4:2-98
+37-->[:NativeGallery:] C:\Users\dimon\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:4:19-74
+38    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+38-->[:NativeGallery:] C:\Users\dimon\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:5:2-99
+38-->[:NativeGallery:] C:\Users\dimon\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:5:19-75
+39
+40    <application
+40-->D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+41        android:extractNativeLibs="true"
+41-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:30:18-50
+42        android:icon="@mipmap/app_icon"
+42-->D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+43        android:label="@string/app_name"
+43-->D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+44        android:requestLegacyExternalStorage="true" >
+44-->[:NativeGallery:] C:\Users\dimon\.gradle\caches\transforms-2\files-2.1\841af7527d9ae3eb0d888ddb3c57391d\NativeGallery\AndroidManifest.xml:6:15-58
+45        <activity
+45-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:31:9-51:20
+46            android:name="com.unity3d.player.UnityPlayerActivity"
+46-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:32:13-66
+47            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+47-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:33:13-194
+48            android:hardwareAccelerated="false"
+48-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:34:13-48
+49            android:launchMode="singleTask"
+49-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:35:13-44
+50            android:resizeableActivity="false"
+50-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:13-47
+51            android:screenOrientation="portrait"
+51-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-49
+52            android:theme="@style/UnityThemeSelector" >
+52-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-54
+53            <intent-filter>
+53-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-43:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:17-69
+54-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:17-77
+56-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:27-74
+57            </intent-filter>
+58
+59            <meta-data
+59-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:13-47:40
+60                android:name="unityplayer.UnityActivity"
+60-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:46:17-57
+61                android:value="true" />
+61-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-37
+62            <meta-data
+62-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:48:13-50:40
+63                android:name="android.notch_support"
+63-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:49:17-53
+64                android:value="true" />
+64-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:17-37
+65        </activity>
+66
+67        <meta-data
+67-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:53:9-55:33
+68            android:name="unity.splash-mode"
+68-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:54:13-45
+69            android:value="0" />
+69-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:13-30
+70        <meta-data
+70-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:9-58:36
+71            android:name="unity.splash-enable"
+71-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-47
+72            android:value="True" />
+72-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-33
+73        <meta-data
+73-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:59:9-61:36
+74            android:name="unity.launch-fullscreen"
+74-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:60:13-51
+75            android:value="True" />
+75-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:13-33
+76        <meta-data
+76-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:9-64:37
+77            android:name="unity.allow-resizable-window"
+77-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-56
+78            android:value="False" />
+78-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:13-34
+79        <meta-data
+79-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:9-67:50
+80            android:name="notch.config"
+80-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-40
+81            android:value="portrait|landscape" />
+81-->[:unityLibrary] D:\Unity-projects\My project\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:13-47
+82    </application>
+83
+84</manifest>
