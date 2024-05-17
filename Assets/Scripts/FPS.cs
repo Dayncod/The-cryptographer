@@ -10,7 +10,8 @@ public class FPS : MonoBehaviour
     
     void Update()
     {
-        float fps = 1.0f / Time.deltaTime;
-        FPSlabel.text = $"FPS: {Mathf.Ceil(fps)}";
+        float fps = 0;
+        fps = (int)(1.0f /Time.unscaledDeltaTime);
+        FPSlabel.text = $"FPS: {fps}";
     }
 }
